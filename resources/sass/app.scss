@@ -1,0 +1,66 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Custom styles
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    
+    &:hover {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+    }
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    
+    &-sm {
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+.table {
+    th {
+        font-weight: 600;
+    }
+    
+    td {
+        vertical-align: middle;
+    }
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    background-color: #fff;
+    
+    .navbar-brand {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+    
+    .nav-link {
+        font-weight: 500;
+    }
+}
+
+.pagination {
+    .page-link {
+        border-radius: 0.5rem;
+        margin: 0 0.25rem;
+    }
+}

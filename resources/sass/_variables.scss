@@ -1,0 +1,41 @@
+// Body
+$body-bg: #f8f9fa;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$primary: #4e73df;
+$secondary: #858796;
+$success: #1cc88a;
+$info: #36b9cc;
+$warning: #f6c23e;
+$danger: #e74a3b;
+$light: #f8f9fa;
+$dark: #5a5c69;
+
+// Cards
+$card-border-radius: 1rem;
+$card-border-width: 0;
+$card-cap-bg: #fff;
+
+// Buttons
+$btn-border-radius: 0.5rem;
+$btn-border-radius-sm: 0.4rem;
+$btn-font-weight: 500;
+
+// Tables
+$table-cell-padding-y: 1rem;
+$table-hover-bg: rgba($primary, 0.05);
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-light-color: $dark;
+$navbar-light-hover-color: $primary;
+
+// Pagination
+$pagination-border-radius: 0.5rem;
+$pagination-hover-bg: rgba($primary, 0.1);
+$pagination-active-bg: $primary;
