@@ -6,12 +6,9 @@ use App\Http\Controllers\PatientController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 
-// Redirect root to home if authenticated, otherwise to login
+// Show welcome page for root URL
 Route::get('/', function () {
-    if (Auth::check()) {
-        return redirect()->route('home');
-    }
-    return redirect()->route('login');
+    return view('welcome');
 });
 
 Auth::routes(['verify' => false]);
